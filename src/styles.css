@@ -90,6 +90,11 @@ h1, h2, h4 {
 h1 {
     font-size: 5rem;
     color: var(--primary-color);
+    text-shadow: 
+        2px 2px 0 var(--background-color),
+        -2px -2px 0 var(--background-color),
+        2px -2px 0 var(--background-color),
+        -2px 2px 0 var(--background-color);
 }
 
 h2 {
@@ -360,6 +365,7 @@ footer {
     overflow: hidden;
     transition: all 0.3s ease;
     cursor: pointer;
+    animation: buttonPulse 3s ease-in-out infinite;
 }
 
 .cta-button::before {
@@ -651,5 +657,14 @@ section:hover h2::after {
 
     .timeline-dot {
         left: 30px;
+    }
+}
+
+@keyframes buttonPulse {
+    0%, 100% {
+        box-shadow: none;
+    }
+    50% {
+        box-shadow: 0 0 15px var(--secondary-color);
     }
 }
