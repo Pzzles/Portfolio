@@ -86,7 +86,10 @@ class TextScramble {
     
 
     about: {
-      description: "I'm a passionate Full Stack Software Developer who thrives on turning complex problems into elegant solutions. With a strong foundation in both front-end and back-end development. My expertise spans C#/.NET, JavaScript, Node.js, and SQL, complemented by proficiency in modern development platforms like FlutterFlow and Oracle APEX.\n\nWhat sets me apart is my commitment to writing clean, maintainable code and my ability to quickly adapt to new technologies. I've successfully delivered multiple production applications that prioritize user experience and performance. When I'm not coding, I'm either exploring new technologies, contributing to open-source projects, or mentoring aspiring developers.\n\nI believe in building software that not only meets technical requirements but also delivers genuine value to users. Let's collaborate and bring your ideas to life!"
+      description: "Hey there! I'm a Full Stack Software Developer with a knack for turning tricky tech puzzles into beautifully crafted solutions. Whether it's front-end magic or back-end wizardry, I've got it covered."
+      + " \n\nWhat makes me tick? Clean, maintainable code and a love for learning new tech tricks on the fly! I've built production-ready apps that aren't just fast and functional—they make users smile."
+      + " \n\nWhen I’m not deep in code, you’ll find me exploring cutting-edge technologies, giving back to open-source, or helping budding devs level up their skills. I’m all about creating software that’s not just technically brilliant but genuinely valuable for people."
+     + " \n\nGot an awesome idea? Let’s team up and make it a reality!"
     },
     projects: {
       title1: "Property Management System",
